@@ -1,0 +1,14 @@
+*{
+    font-family:Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.main-title{
+    text-align: center;
+    background-color: rgb(88, 80, 254);
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
