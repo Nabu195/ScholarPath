@@ -114,11 +114,23 @@ const initialNodes = [
            data: { code: '1110100', title: 'الدارات الكهربائية', credits: 3, subjectType: 4},
        },
           {
+              id: '1120200',
+              type: 'subjectCard',
+              position: {x: -1500 , y: 400},
+              data: { code: '1120200', title: 'الإلكترونيات 1', credits: 3, subjectType: 4},
+          },
+            {
+                id: '1120202',
+                type: 'subjectCard',
+                position: {x: -1500 , y: 600},
+                data: { code: '1120202', title: 'الإلكترونيات 2', credits: 3, subjectType: 4},
+            },
+          {
               id: '1120201',
               type: 'subjectCard',
               position: {x: -1000 , y: 400},
               data: { code: '1120201', title: 'المنطق الرقمي', credits: 4, subjectType: 4},
-          },
+          },          
              {
                  id: '1120400',
                  type: 'subjectCard',
@@ -212,91 +224,91 @@ const initialEdges = [
     source: 'TL195',
     target: '4310000',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4310000-4310001',
     source: '4310000',
     target: '4310001',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4310001-4310003',
     source: '4310001',
     target: '4310003',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4310001-4320005',
     source: '4310001',
     target: '4320005',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4310001-4320004',
     source: '4310001',
     target: '4320004',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4320004-4330006',
     source: '4320004',
     target: '4330006',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4330006-4330007',
     source: '4330006',
     target: '4330007',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4320005-1141001',
     source: '4320005',
     target: '1141001',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4310001-4310003',
     source: '4310001',
     target: '4310003',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4310003-1120900',
     source: '4310003',
     target: '1120900',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120900-1130300',
     source: '1120900',
     target: '1130300',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1130300-1130800',
     source: '1130300',
     target: '1130800',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1130300-1130301',
     source: '1130300',
     target: '1130301',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   
       // ----------------------------
@@ -305,42 +317,49 @@ const initialEdges = [
     source: 'TL195',
     target: '4110000',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e4110000-1110100',
     source: '4110000',
     target: '1110100',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1110100-1120201',
     source: '1110100',
     target: '1120201',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
-    id: 'e1120201-1120400',
-    source: '1120201',
-    target: '1120400',
+    id: 'e1110100-1120200',
+    source: '1110100',
+    target: '1120200',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
+  }, 
+  {
+    id: '1120200-1120202',
+    source: '1120200',
+    target: '1120202',
+    animated: true,
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120400-1130401',
     source: '1120400',
     target: '1130401',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120400-1140600',
     source: '1120400',
     target: '1140600',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
       // ----------------------------
   {
@@ -348,70 +367,70 @@ const initialEdges = [
     source: 'TL195',
     target: '1110501',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1110501-1110502',
     source: '1110501',
     target: '1110502',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1110502-1120503',
     source: '1110502',
     target: '1120503',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120503-1120504',
     source: '1120503',
     target: '1120504',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120503-1130505',
     source: '1120503',
     target: '1130505',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1130505-1050811',
     source: '1130505',
     target: '1050811',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1130505-1141000',
     source: '1130505',
     target: '1141000',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120504-0730511',
     source: '1120504',
     target: '0730511',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1120504-1130700',
     source: '1120504',
     target: '1130700',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
   {
     id: 'e1130700-1141100',
     source: '1130700',
     target: '1141100',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
 ]
 export default function App() {
@@ -463,14 +482,14 @@ export default function App() {
     source: '1120504',
     target: '3',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
 
       id: 'e1141100-1141100',
     source: '1141100',
     target: '1',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
 
 {
@@ -478,7 +497,7 @@ export default function App() {
     source: '1141100',
     target: '1',
     animated: true,
-    style: {stroke: '#3b82f6', strokeWidth: 2}
+    style: {stroke: '#08a208', strokeWidth: 2}
   },
 
 
